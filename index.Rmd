@@ -1,0 +1,17 @@
+---
+title: "index.Rmd"
+output: html_document
+date: '2022-06-30'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(tidycensus)
+library(ggthemes)
+library(tigris)
+```
+
+##Purpose
+This is for the Mapping tutorial from Preceptor Kane's Data Science Course.
